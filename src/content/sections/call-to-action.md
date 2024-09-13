@@ -1,10 +1,10 @@
 ---
 enable: true
-title: "Having more than 1 year of Experience"
+title: "Book free Consultation"
 image: "/images/call-to-action.png"
-description: "I have more than one year of experience working with international clients, creating a seamless working experience."
+description: "Stuck on a problem ? Don't wait just book it."
 button:
   enable: true
   label: "Learn More"
-  link: "/about"
+  link: "https://www.linkedin.com/in/muhammad-huzaifa-6ab8101b9/"
 ---
