@@ -2,22 +2,23 @@
 title: "Hey, I am Huzaifa!"
 meta_title: "About"
 description: "FUll stack Developer"
-image: "/images/avatar.JPG"
+image: "/images/office101.jpg"
 draft: false
 ---
 
-Greetings! 👋 I'm Huzaifa, a dedicated Full Stack Web Developer, with high-performance web solutions. Specializing in Next.js and TypeScript, I thrive on turning innovative ideas into captivating digital experiences.
+Greetings! 👋 I'm Muhammad Huzaifa, a Software Enginner focused on helping businesses grow their online presence and bring their products or services to life. I specialize in building high-performance websites and apps that are both scalable and user-friendly.
 
-Key Strengths:
-✨ Full Stack Expertise: Proficient in both front-end and back-end development, I bring a holistic approach to crafting robust and scalable web applications.
-💡 Next.js & TypeScript Mastery: I excel in harnessing the power of Next.js and TypeScript to deliver performant and maintainable code.
-🌐 Client-Centric Solutions: With a focus on user experience, I create solutions that not only meet technical requirements but also exceed user expectations.
-🤝 Collaborative Team Player: Experienced in agile environments, I thrive in collaborative settings, fostering open communication and driving project success.
+I use tools like wordpress, React.js, Next.js,TypeScript,Node.js and Express.js to craft digital solutions tailored to your needs. My goal is to simplify complex ideas and turn them into easy-to-use, impactful web applications that support your business growth.
 
-Current Focus:
-🔧 Currently diving deep into the latest trends in web development to ensure our projects stay on the cutting edge.
+Why Work With Me?
 
-Open to New Opportunities:
-🌟 Actively seeking opportunities to contribute my skills and passion to innovative projects. Let's connect and explore how I can bring value to your team!
+🚀 Software Engineer Expertise: I handle both front-end and back-end development to deliver complete, functional solutions.
+🔍 Scalable & Reliable Solutions: I focus on creating applications that grow with your business while staying efficient and maintainable.
+🎯 Business-Focused Development: Every project I work on is designed to meet your business goals, ensuring it’s valuable and practical.
+🤝 Client-First Approach: I take the time to understand your unique needs and create solutions that solve real problems.
 
-Ready to elevate your web development projects? Let's chat! Feel free to reach out for collaboration, networking, or to discuss potential opportunities.
+What I’m Focused On:
+🔧 Staying updated on new trends in technology so I can build innovative solutions that keep your business ahead of the competition.
+
+Let’s Work Together:
+I’m open to new opportunities and collaborations with businesses that want to build better websites, apps, or digital solutions. If you’re ready to elevate your business online, let’s connect and make it happen!

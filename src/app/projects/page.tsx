@@ -8,15 +8,20 @@ import blog from "../../../public/images/blog.png";
 import fb from "../../../public/images/fb.png";
 import ecom from "../../../public/images/ecom.png";
 import business from "../../../public/images/business.png";
-import nakkai from "../../../public/images/nakkai.jpg"
+import nakkai from "../../../public/images/nakkai.jpg";
 import astro from "../../../public/images/astro.jpg";
-import ipems from "../../../public/images/ipems.jpg"
-import filmo from "../../../public/images/filmo.jpg"
+import ipems from "../../../public/images/ipems.jpg";
+import filmo from "../../../public/images/filmo.jpg";
+import workzish from "../../../public/images/workzish.png";
+import dragon from "../../../public/images/dragon.png";
+import clearzone from "../../../public/images/clearzone.png";
+import hthbazzar from "../../../public/images/hthbazzar.png";
 const Data = [
   {
     id: 1,
     name: "Filmo Madarsa",
-    description: "A complete LMS system for students to learn and teachers to teach",
+    description:
+      "A complete LMS system for students to learn and teachers to teach",
     link: "https://www.newschool.top/",
     img: filmo,
   },
@@ -30,7 +35,8 @@ const Data = [
   {
     id: 9,
     name: "Industrial Position and Employee Tracking System",
-    description: "A complete SAAS Solution for the industry for tracking the employee and their position also to navigate the visitor to their desired location",
+    description:
+      "A complete SAAS Solution for the industry for tracking the employee and their position also to navigate the visitor to their desired location",
     link: "https://ipems.surge.sh/apps/chat",
     img: ipems,
   },
@@ -80,6 +86,37 @@ const Data = [
     link: "https://api-integration-six.vercel.app/",
     img: chatbot,
   },
+  {
+    id: 10,
+    name: "Workzish (SAAS)",
+    description:
+      "cloud-based gym management software that streamlines and automates your fitness business operations, helping you boost revenue and profits",
+    link: "https://workzish.com/",
+    img: workzish,
+  },
+  {
+    id: 11,
+    name: "VPN",
+    description:
+      "Digital identity with our one-click HWID spoofer—fully undetectable, fast, and compatible with all major anti-cheat systems.",
+    link: "https://landing-dragon.vercel.app/",
+    img: dragon,
+  },
+  {
+    id: 12,
+    name: "Garbage Collection (SAAS)",
+    description:
+      "ClearZone is an innovative solution designed to tackle waste issues by leveraging modern technology and community participation.",
+    link: "https://clearzone-zeta.vercel.app/",
+    img: clearzone,
+  },
+  {
+    id: 13,
+    name: "HTH Bazzar",
+    description: "A complete E-commerce shopping solution",
+    link: "https://hthbazzar.com/",
+    img: hthbazzar,
+  },
 
   // {
   //   id: 7,
@@ -96,10 +133,12 @@ const Projects = () => {
       {Data.map((item, i) => (
         <div
           key={i}
-          className="border-2 rounded w-72 flex flex-col h-auto items-center"
+          className="border-2 rounded w-80 flex flex-col h-auto items-center"
         >
-          <Image src={item.img} alt="portfolio" className="w-72 h-56" />
-          <h1 className="text-2xl text-black mt-3 px-3 text-center">{item.name}</h1>
+          <Image src={item.img} alt="portfolio" className="w-80 h-56" />
+          <h1 className="text-2xl text-black mt-3 px-3 text-center">
+            {item.name}
+          </h1>
           <p className="mb-4 text-center px-3">{item.description}</p>
           <Link
             href={item.link}

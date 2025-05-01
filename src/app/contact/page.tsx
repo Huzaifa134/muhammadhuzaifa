@@ -22,8 +22,8 @@ const Contact = async () => {
         description={description}
         image={image}
       />
-      <PageHeader title={title} />
-      <section className="section-sm flex flex-wrap justify-center items-center">
+      {/* <PageHeader title={title} /> */}
+      <section className="section-sm flex flex-wrap justify-center items-center h-[415px]">
         <h4>Please Feel Free to Contact me :)</h4>
         <div className="container flex flex-wrap mt-10 justify-center items-center gap-10 text-6xl text-white">
           <a

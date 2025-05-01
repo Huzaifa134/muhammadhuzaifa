@@ -20,23 +20,25 @@ const About = () => {
       />
       <section className="section-sm">
         <div className="container">
-          <div className="row justify-center">
-            <div className="text-center md:col-10 lg:col-7">
+          <div className=" justify-center m-auto">
+            <div className="text-left  w-[100%] flex flex-wrap max-[996px]:flex-col max-[996px]:text-center">
               {image && (
                 <ImageFallback
-                  className="mx-auto mb-6 rounded-lg"
+                  className="mx-auto mb-6 rounded-lg   w-[30%]"
                   src={image}
                   width={150}
                   height={100}
                   alt={title}
                 />
               )}
-              <h2
-                dangerouslySetInnerHTML={markdownify(title)}
-                className="h3 mb-6"
-              />
-              <div className="content">
-                <MDXContent content={content} />
+              <div className="max-w-[65%] max-[996px]:m-auto max-[996px]:max-w-[100%]">
+                <h2
+                  dangerouslySetInnerHTML={markdownify(title)}
+                  className="h3 mb-6"
+                />
+                <div className="content">
+                  <MDXContent content={content} />
+                </div>
               </div>
             </div>
           </div>
